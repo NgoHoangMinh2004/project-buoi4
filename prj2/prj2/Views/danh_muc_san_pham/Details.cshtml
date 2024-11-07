@@ -1,0 +1,26 @@
+﻿@model prj2.Models.danh_muc_san_pham
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>danh_muc_san_pham</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ten_danh_muc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ten_danh_muc)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.danh_muc_id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

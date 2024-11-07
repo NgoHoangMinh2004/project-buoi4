@@ -1,0 +1,72 @@
+﻿@model IEnumerable<prj2.Models.san_pham>
+
+@{
+    ViewBag.Title = "Trang Sản Phẩm";
+}
+
+<h2>Danh sách sản phẩm</h2>
+<meta charset="UTF-8">
+<div class="product-list">
+    @foreach (var item in Model)
+    {
+        <div class="product-card">
+    
+            <img src="@Url.Content("~/images/products/sanpham_" + item.san_pham_id + ".jpg")"
+                 alt="@item.ten_san_pham" class="product-image" />
+
+         
+            <div class="product-info">
+                <h3>@item.ten_san_pham</h3>
+                <p>@item.mo_ta</p>
+
+                <!-- Nút xem chi tiết -->
+                @Html.ActionLink("Xem chi tiết", "Details", new { id = item.san_pham_id }, new { @class = "btn btn-primary" })
+            </div>
+        </div>
+    }
+</div>
+
+<style>
+    .product-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .product-card {
+        width: 200px;
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    .product-image {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+
+    .product-info h3 {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+    .product-info p {
+        font-size: 14px;
+        color: #555;
+    }
+
+    .btn {
+        margin-top: 10px;
+        text-decoration: none;
+        padding: 8px 12px;
+        background-color: #007bff;
+        color: white;
+        border-radius: 4px;
+    }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+</style>

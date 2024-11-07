@@ -1,0 +1,289 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Project 2\\BE\\prj2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C588A244-AC2E-4349-8983-CA39DF9E0E65}|prj2\\prj2.csproj|e:\\project 2\\be\\prj2\\prj2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C588A244-AC2E-4349-8983-CA39DF9E0E65}|prj2\\prj2.csproj|solutionrelative:prj2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C588A244-AC2E-4349-8983-CA39DF9E0E65}|prj2\\prj2.csproj|e:\\project 2\\be\\prj2\\prj2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C588A244-AC2E-4349-8983-CA39DF9E0E65}|prj2\\prj2.csproj|solutionrelative:prj2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C588A244-AC2E-4349-8983-CA39DF9E0E65}|prj2\\prj2.csproj|e:\\project 2\\be\\prj2\\prj2\\views\\danh_muc_san_pham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C588A244-AC2E-4349-8983-CA39DF9E0E65}|prj2\\prj2.csproj|solutionrelative:prj2\\views\\danh_muc_san_pham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C588A244-AC2E-4349-8983-CA39DF9E0E65}|prj2\\prj2.csproj|E:\\Project 2\\BE\\prj2\\prj2\\controllers\\danh_muc_san_phamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C588A244-AC2E-4349-8983-CA39DF9E0E65}|prj2\\prj2.csproj|solutionrelative:prj2\\controllers\\danh_muc_san_phamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C588A244-AC2E-4349-8983-CA39DF9E0E65}|prj2\\prj2.csproj|E:\\Project 2\\BE\\prj2\\prj2\\controllers\\san_phamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C588A244-AC2E-4349-8983-CA39DF9E0E65}|prj2\\prj2.csproj|solutionrelative:prj2\\controllers\\san_phamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C588A244-AC2E-4349-8983-CA39DF9E0E65}|prj2\\prj2.csproj|E:\\Project 2\\BE\\prj2\\prj2\\controllers\\thanh_toancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C588A244-AC2E-4349-8983-CA39DF9E0E65}|prj2\\prj2.csproj|solutionrelative:prj2\\controllers\\thanh_toancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C588A244-AC2E-4349-8983-CA39DF9E0E65}|prj2\\prj2.csproj|E:\\Project 2\\BE\\prj2\\prj2\\views\\san_pham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C588A244-AC2E-4349-8983-CA39DF9E0E65}|prj2\\prj2.csproj|solutionrelative:prj2\\views\\san_pham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C588A244-AC2E-4349-8983-CA39DF9E0E65}|prj2\\prj2.csproj|e:\\project 2\\be\\prj2\\prj2\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C588A244-AC2E-4349-8983-CA39DF9E0E65}|prj2\\prj2.csproj|solutionrelative:prj2\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C588A244-AC2E-4349-8983-CA39DF9E0E65}|prj2\\prj2.csproj|E:\\Project 2\\BE\\prj2\\prj2\\views\\san_pham\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C588A244-AC2E-4349-8983-CA39DF9E0E65}|prj2\\prj2.csproj|solutionrelative:prj2\\views\\san_pham\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C588A244-AC2E-4349-8983-CA39DF9E0E65}|prj2\\prj2.csproj|E:\\Project 2\\BE\\prj2\\prj2\\models\\san_pham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C588A244-AC2E-4349-8983-CA39DF9E0E65}|prj2\\prj2.csproj|solutionrelative:prj2\\models\\san_pham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C588A244-AC2E-4349-8983-CA39DF9E0E65}|prj2\\prj2.csproj|e:\\project 2\\be\\prj2\\prj2\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C588A244-AC2E-4349-8983-CA39DF9E0E65}|prj2\\prj2.csproj|solutionrelative:prj2\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C588A244-AC2E-4349-8983-CA39DF9E0E65}|prj2\\prj2.csproj|E:\\Project 2\\BE\\prj2\\prj2\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{C588A244-AC2E-4349-8983-CA39DF9E0E65}|prj2\\prj2.csproj|solutionrelative:prj2\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C588A244-AC2E-4349-8983-CA39DF9E0E65}|prj2\\prj2.csproj|e:\\project 2\\be\\prj2\\prj2\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C588A244-AC2E-4349-8983-CA39DF9E0E65}|prj2\\prj2.csproj|solutionrelative:prj2\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C588A244-AC2E-4349-8983-CA39DF9E0E65}|prj2\\prj2.csproj|e:\\project 2\\be\\prj2\\prj2\\views\\nguoi_dung\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C588A244-AC2E-4349-8983-CA39DF9E0E65}|prj2\\prj2.csproj|solutionrelative:prj2\\views\\nguoi_dung\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C588A244-AC2E-4349-8983-CA39DF9E0E65}|prj2\\prj2.csproj|E:\\Project 2\\BE\\prj2\\prj2\\views\\nguoi_dung\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C588A244-AC2E-4349-8983-CA39DF9E0E65}|prj2\\prj2.csproj|solutionrelative:prj2\\views\\nguoi_dung\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C588A244-AC2E-4349-8983-CA39DF9E0E65}|prj2\\prj2.csproj|E:\\Project 2\\BE\\prj2\\prj2\\controllers\\nguoi_dungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C588A244-AC2E-4349-8983-CA39DF9E0E65}|prj2\\prj2.csproj|solutionrelative:prj2\\controllers\\nguoi_dungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Project 2\\BE\\prj2\\prj2\\Views\\danh_muc_san_pham\\Index.cshtml",
+              "RelativeDocumentMoniker": "prj2\\Views\\danh_muc_san_pham\\Index.cshtml",
+              "ToolTip": "E:\\Project 2\\BE\\prj2\\prj2\\Views\\danh_muc_san_pham\\Index.cshtml",
+              "RelativeToolTip": "prj2\\Views\\danh_muc_san_pham\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T11:46:21.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Web.config",
+              "DocumentMoniker": "E:\\Project 2\\BE\\prj2\\prj2\\Views\\Web.config",
+              "RelativeDocumentMoniker": "prj2\\Views\\Web.config",
+              "ToolTip": "E:\\Project 2\\BE\\prj2\\prj2\\Views\\Web.config",
+              "RelativeToolTip": "prj2\\Views\\Web.config",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACQAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-07T11:42:40.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Project 2\\BE\\prj2\\prj2\\Views\\san_pham\\Index.cshtml",
+              "RelativeDocumentMoniker": "prj2\\Views\\san_pham\\Index.cshtml",
+              "ToolTip": "E:\\Project 2\\BE\\prj2\\prj2\\Views\\san_pham\\Index.cshtml",
+              "RelativeToolTip": "prj2\\Views\\san_pham\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T07:45:51.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "thanh_toanController.cs",
+              "DocumentMoniker": "E:\\Project 2\\BE\\prj2\\prj2\\Controllers\\thanh_toanController.cs",
+              "RelativeDocumentMoniker": "prj2\\Controllers\\thanh_toanController.cs",
+              "ToolTip": "E:\\Project 2\\BE\\prj2\\prj2\\Controllers\\thanh_toanController.cs",
+              "RelativeToolTip": "prj2\\Controllers\\thanh_toanController.cs",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAwwIEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T07:42:44.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "san_phamController.cs",
+              "DocumentMoniker": "E:\\Project 2\\BE\\prj2\\prj2\\Controllers\\san_phamController.cs",
+              "RelativeDocumentMoniker": "prj2\\Controllers\\san_phamController.cs",
+              "ToolTip": "E:\\Project 2\\BE\\prj2\\prj2\\Controllers\\san_phamController.cs",
+              "RelativeToolTip": "prj2\\Controllers\\san_phamController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAuwAwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T07:39:12.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "E:\\Project 2\\BE\\prj2\\prj2\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "prj2\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "E:\\Project 2\\BE\\prj2\\prj2\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "prj2\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T10:37:24.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\Project 2\\BE\\prj2\\prj2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "prj2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\Project 2\\BE\\prj2\\prj2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "prj2\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAAC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T10:28:24.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Project 2\\BE\\prj2\\prj2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "prj2\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\Project 2\\BE\\prj2\\prj2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "prj2\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAUwJQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T10:30:19.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "danh_muc_san_phamController.cs",
+              "DocumentMoniker": "E:\\Project 2\\BE\\prj2\\prj2\\Controllers\\danh_muc_san_phamController.cs",
+              "RelativeDocumentMoniker": "prj2\\Controllers\\danh_muc_san_phamController.cs",
+              "ToolTip": "E:\\Project 2\\BE\\prj2\\prj2\\Controllers\\danh_muc_san_phamController.cs",
+              "RelativeToolTip": "prj2\\Controllers\\danh_muc_san_phamController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T07:42:11.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "E:\\Project 2\\BE\\prj2\\prj2\\Models\\Model1.edmx",
+              "RelativeDocumentMoniker": "prj2\\Models\\Model1.edmx",
+              "ToolTip": "E:\\Project 2\\BE\\prj2\\prj2\\Models\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "prj2\\Models\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-11-07T07:26:48.27Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\Project 2\\BE\\prj2\\prj2\\Views\\san_pham\\Details.cshtml",
+              "RelativeDocumentMoniker": "prj2\\Views\\san_pham\\Details.cshtml",
+              "ToolTip": "E:\\Project 2\\BE\\prj2\\prj2\\Views\\san_pham\\Details.cshtml",
+              "RelativeToolTip": "prj2\\Views\\san_pham\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T07:46:04.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "san_pham.cs",
+              "DocumentMoniker": "E:\\Project 2\\BE\\prj2\\prj2\\Models\\san_pham.cs",
+              "RelativeDocumentMoniker": "prj2\\Models\\san_pham.cs",
+              "ToolTip": "E:\\Project 2\\BE\\prj2\\prj2\\Models\\san_pham.cs",
+              "RelativeToolTip": "prj2\\Models\\san_pham.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T07:53:29.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "E:\\Project 2\\BE\\prj2\\prj2\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "prj2\\Views\\Home\\About.cshtml",
+              "ToolTip": "E:\\Project 2\\BE\\prj2\\prj2\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "prj2\\Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T11:14:16.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\Project 2\\BE\\prj2\\prj2\\Views\\nguoi_dung\\Login.cshtml",
+              "RelativeDocumentMoniker": "prj2\\Views\\nguoi_dung\\Login.cshtml",
+              "ToolTip": "E:\\Project 2\\BE\\prj2\\prj2\\Views\\nguoi_dung\\Login.cshtml",
+              "RelativeToolTip": "prj2\\Views\\nguoi_dung\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T07:33:55.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SignUp.cshtml",
+              "DocumentMoniker": "E:\\Project 2\\BE\\prj2\\prj2\\Views\\nguoi_dung\\SignUp.cshtml",
+              "RelativeDocumentMoniker": "prj2\\Views\\nguoi_dung\\SignUp.cshtml",
+              "ToolTip": "E:\\Project 2\\BE\\prj2\\prj2\\Views\\nguoi_dung\\SignUp.cshtml",
+              "RelativeToolTip": "prj2\\Views\\nguoi_dung\\SignUp.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T07:33:28.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "nguoi_dungController.cs",
+              "DocumentMoniker": "E:\\Project 2\\BE\\prj2\\prj2\\Controllers\\nguoi_dungController.cs",
+              "RelativeDocumentMoniker": "prj2\\Controllers\\nguoi_dungController.cs",
+              "ToolTip": "E:\\Project 2\\BE\\prj2\\prj2\\Controllers\\nguoi_dungController.cs",
+              "RelativeToolTip": "prj2\\Controllers\\nguoi_dungController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAEAAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T07:29:11.305Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

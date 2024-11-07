@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="23b31366d9e2465585cbb6d4095d1df2" Name="Diagram1">
+        <EntityTypeShape EntityType="prj2_2210900044_nhmModel.chi_tiet_don_hang" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="prj2_2210900044_nhmModel.danh_muc_san_pham" Width="1.5" PointX="7.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="prj2_2210900044_nhmModel.don_hang" Width="1.5" PointX="3" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="prj2_2210900044_nhmModel.nguoi_dung" Width="1.5" PointX="0.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="prj2_2210900044_nhmModel.san_pham" Width="1.5" PointX="10" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="prj2_2210900044_nhmModel.thanh_toan" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <AssociationConnector Association="prj2_2210900044_nhmModel.FK__chi_tiet___don_h__5EBF139D" ManuallyRouted="false" />
+        <AssociationConnector Association="prj2_2210900044_nhmModel.FK__san_pham__danh_m__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="prj2_2210900044_nhmModel.FK__don_hang__nguoi___3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="prj2_2210900044_nhmModel.FK__thanh_toa__don_h__3F466844" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
