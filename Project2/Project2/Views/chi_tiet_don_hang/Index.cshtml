@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Project2.Models.chi_tiet_don_hang>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.so_luong)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.gia)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.don_hang.don_hang_id)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.so_luong)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.gia)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.don_hang.don_hang_id)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.chi_tiet_don_hang_id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.chi_tiet_don_hang_id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.chi_tiet_don_hang_id })
+        </td>
+    </tr>
+}
+
+</table>

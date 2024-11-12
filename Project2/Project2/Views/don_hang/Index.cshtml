@@ -1,0 +1,123 @@
+﻿@model IEnumerable<Project2.Models.don_hang>
+
+@{
+    ViewBag.Title = "Danh sách đơn hàng";
+    Layout = null;
+}
+
+<!-- Thêm CSS trực tiếp trong file để định dạng -->
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+        margin: 20px;
+    }
+
+    h2 {
+        color: #333;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .table {
+        width: 100%;
+        max-width: 1000px;
+        margin: 0 auto;
+        border-collapse: collapse;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+        .table th, .table td {
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        .table th {
+            background-color: #007bff;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .table tr:hover {
+            background-color: #e2e6ea;
+        }
+
+    .btn {
+        padding: 8px 12px;
+        font-size: 14px;
+        margin: 2px;
+        border-radius: 4px;
+        text-decoration: none;
+        color: #fff;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-success {
+        background-color: #28a745;
+        border: none;
+    }
+
+    .btn-danger {
+        background-color: #dc3545;
+        border: none;
+    }
+
+    .btn-success:hover {
+        background-color: #218838;
+    }
+
+    .btn-danger:hover {
+        background-color: #c82333;
+    }
+
+    .alert {
+        max-width: 600px;
+        margin: 10px auto;
+        padding: 10px;
+        color: #721c24;
+        background-color: #f8d7da;
+        border: 1px solid #f5c6cb;
+        border-radius: 4px;
+    }
+</style>
+
+<h2>Danh Sách Đơn Hàng</h2>
+
+@if (ViewBag.ErrorMessage != null)
+{
+    <div class="alert">
+        @ViewBag.ErrorMessage
+    </div>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.First().ngay_dat)</th>
+            <th>@Html.DisplayNameFor(model => model.First().tong_tien)</th>
+            <th>Tên đăng nhập</th>
+            <th>@Html.DisplayNameFor(model => model.First().don_hang_id)</th>
+            <th>Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ngay_dat</td>
+                <td>@string.Format("{0:0,0} VNĐ", item.tong_tien)</td>
+                <td>@(item.nguoi_dung.ten_dang_nhap)</td>
+                <td>@item.don_hang_id</td>
+                <td>
+                    @Html.ActionLink("Thanh toán", "ThanhToan", new { id = item.don_hang_id }, new { @class = "btn btn-success" })
+                    @Html.ActionLink("Xóa", "Delete", new { id = item.don_hang_id }, new { @class = "btn btn-danger", onclick = "return confirm('Bạn có chắc chắn muốn xóa đơn hàng này?');" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

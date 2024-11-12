@@ -1,0 +1,42 @@
+﻿@model Project2.Models.don_hang
+
+@{
+    ViewBag.Title = "Chi Tiết Đơn Hàng";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Chi Tiết Đơn Hàng</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+</head>
+<body>
+    <div class="container mt-4">
+        <h2 class="text-center mb-4">Chi Tiết Đơn Hàng</h2>
+        <div class="card">
+            <div class="card-body">
+                <dl class="row">
+                    <dt class="col-sm-4">Ngày Đặt:</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.ngay_dat)</dd>
+
+                    <dt class="col-sm-4">Tổng Tiền:</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.tong_tien)</dd>
+
+                    <dt class="col-sm-4">Người Đặt Hàng:</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.nguoi_dung.ten_dang_nhap)</dd>
+                </dl>
+            </div>
+        </div>
+
+        <div class="mt-4 text-center">
+            @Html.ActionLink("Chỉnh sửa", "Edit", new { id = Model.don_hang_id }, new { @class = "btn btn-primary" })
+            @Html.ActionLink("Quay lại danh sách", "Index", null, new { @class = "btn btn-secondary" })
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

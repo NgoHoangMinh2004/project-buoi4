@@ -1,0 +1,84 @@
+﻿@model Project2.Models.san_pham
+
+@{
+    ViewBag.Title = "Chi tiết sản phẩm";
+}
+
+<!-- Thêm CSS trực tiếp vào trang (hoặc bạn có thể di chuyển vào file CSS riêng) -->
+<style>
+    .product-details-container {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+        .product-details-container h2 {
+            text-align: center;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .product-details-container dl {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .product-details-container dt {
+            width: 30%;
+            font-weight: bold;
+            color: #555;
+            padding: 8px 0;
+        }
+
+        .product-details-container dd {
+            width: 70%;
+            margin: 0;
+            padding: 8px 0;
+            color: #333;
+        }
+
+    .action-links {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+        .action-links a {
+            color: #fff;
+            background-color: #007bff;
+            padding: 8px 16px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+
+            .action-links a:hover {
+                background-color: #0056b3;
+            }
+</style>
+
+<div class="product-details-container">
+    <h2>Chi tiết sản phẩm</h2>
+    <hr />
+
+    <dl>
+        <dt>@Html.DisplayNameFor(model => model.ten_san_pham)</dt>
+        <dd>@Html.DisplayFor(model => model.ten_san_pham)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.gia)</dt>
+        <dd>@Html.DisplayFor(model => model.gia) VND</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.mo_ta)</dt>
+        <dd>@Html.DisplayFor(model => model.mo_ta)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.danh_muc_san_pham.ten_danh_muc)</dt>
+        <dd>@Html.DisplayFor(model => model.danh_muc_san_pham.ten_danh_muc)</dd>
+    </dl>
+
+    <div class="action-links">
+        @Html.ActionLink("Chỉnh sửa", "Edit", new { id = Model.san_pham_id }, new { @class = "btn-edit" }) |
+        @Html.ActionLink("Quay lại danh sách", "Index", null, new { @class = "btn-back" })
+    </div>
+</div>

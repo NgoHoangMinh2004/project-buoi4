@@ -1,0 +1,148 @@
+﻿@model IEnumerable<Project2.Models.thanh_toan>
+
+@{
+    ViewBag.Title = "Danh sách thanh toán";
+}
+<<style>
+    /* Cấu hình cho hình nền */
+    body {
+        background-image: @Url.Content("~/Content/img/MF/MissFortune_31.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        font-family: Arial, sans-serif;
+        color: #333;
+    }
+
+    /* Container chính */ 
+    .content-container {
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 10px;
+        padding: 20px;
+        max-width: 800px;
+        margin: 30px auto;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Tiêu đề */
+    h2 {
+        color: #4A90E2;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    /* Nút bấm */
+    .btn-primary, .btn-danger, .btn-success, .btn-small {
+        border-radius: 5px;
+        padding: 8px 16px;
+        margin: 5px;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .btn-primary {
+        background-color: #4A90E2;
+    }
+
+    .btn-primary:hover {
+        background-color: #357ABD;
+    }
+
+    .btn-danger {
+        background-color: #E74C3C;
+    }
+
+    .btn-danger:hover {
+        background-color: #C0392B;
+    }
+
+    /* Nút nhỏ hơn cho thanh toán chuyển khoản */
+    .btn-small {
+        background-color: #28A745;
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .btn-small:hover {
+        background-color: #218838;
+    }
+
+    /* Bảng thanh toán */
+    .table {
+        width: 100%;
+        margin-top: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .table thead th {
+        background-color: #4A90E2;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .table tbody td {
+        padding: 10px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .table tbody tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    .alert-danger {
+        color: #721c24;
+        background-color: #f8d7da;
+        border-color: #f5c6cb;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+</style>
+
+
+<div class="content-container">
+    <h2>Danh sách thanh toán</h2>
+
+    <!-- Hiển thị thông báo lỗi nếu có -->
+    @if (ViewBag.ErrorMessage != null)
+    {
+        <div class="alert alert-danger">
+            @ViewBag.ErrorMessage
+        </div>
+    }
+
+  
+    <table class="table">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.First().thanh_toan_id)</th>
+                <th>@Html.DisplayNameFor(model => model.First().phuong_thuc)</th>
+                <th>@Html.DisplayNameFor(model => model.First().so_tien)</th>
+                <th>@Html.DisplayNameFor(model => model.First().ngay_thanh_toan)</th>
+                <th>@Html.DisplayNameFor(model => model.First().don_hang_id)</th>
+                <th>Thao tác</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.thanh_toan_id</td>
+                    <td>@item.phuong_thuc</td>
+                    <td>@string.Format("{0:0,0} VNĐ", item.so_tien)</td>
+                    <td>@string.Format("{0:dd/MM/yyyy}", item.ngay_thanh_toan)</td>
+                    <td>@item.don_hang_id</td>
+                    <td>
+                        @Html.ActionLink("Xóa", "Delete", new { id = item.thanh_toan_id }, new { @class = "btn btn-danger" })
+                        @Html.ActionLink("Thanh toán chuyển khoản", "ThanhToanChuyenKhoan", new { id = item.thanh_toan_id }, new { @class = "btn btn-success" })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

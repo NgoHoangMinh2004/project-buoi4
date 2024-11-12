@@ -1,0 +1,74 @@
+﻿@model Project2.Models.nguoi_dung
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>nguoi_dung</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ten_dang_nhap)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ten_dang_nhap)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.mat_khau)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.mat_khau)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ho_ten)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ho_ten)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dia_chi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dia_chi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.so_dien_thoai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.so_dien_thoai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ngay_dang_ky)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ngay_dang_ky)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.nguoi_dung_id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

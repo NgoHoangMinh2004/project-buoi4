@@ -1,0 +1,52 @@
+﻿@model Project2.Models.nguoi_dung
+
+@{
+    ViewBag.Title = "Đăng ký";
+}
+
+<h2>Đăng ký tài khoản mới</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div>
+        @Html.LabelFor(model => model.ten_dang_nhap)
+        @Html.TextBoxFor(model => model.ten_dang_nhap)
+    </div>
+    <div>
+        @Html.LabelFor(model => model.mat_khau)
+        @Html.PasswordFor(model => model.mat_khau)
+    </div>
+    <div>
+        @Html.LabelFor(model => model.email)
+        @Html.TextBoxFor(model => model.email)
+    </div>
+    <div>
+        @Html.LabelFor(model => model.ho_ten)
+        @Html.TextBoxFor(model => model.ho_ten)
+    </div>
+    <div>
+        @Html.LabelFor(model => model.dia_chi)
+        @Html.TextBoxFor(model => model.dia_chi)
+    </div>
+    <div>
+        @Html.LabelFor(model => model.so_dien_thoai)
+        @Html.TextBoxFor(model => model.so_dien_thoai)
+    </div>
+    <div>
+        @Html.LabelFor(model => model.ngay_dang_ky)
+        @Html.TextBoxFor(model => model.ngay_dang_ky, new { @type = "date" })
+    </div>
+    <button type="submit">Đăng ký</button>
+}
+
+@if (ViewBag.ErrorMessage != null)
+{
+    <div style="color:red;">@ViewBag.ErrorMessage</div>
+}
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div style="color:green;">@TempData["SuccessMessage"]</div>
+}
+<p>Đã có tài khoản? <a href="@Url.Action("Login", "nguoi_dung")">Đăng nhập ngay</a></p>

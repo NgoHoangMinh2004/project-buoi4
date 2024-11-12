@@ -1,0 +1,69 @@
+﻿@model IEnumerable<Project2.Models.nguoi_dung>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ten_dang_nhap)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.mat_khau)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ho_ten)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dia_chi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.so_dien_thoai)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ngay_dang_ky)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ten_dang_nhap)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.mat_khau)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ho_ten)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dia_chi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.so_dien_thoai)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ngay_dang_ky)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.nguoi_dung_id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.nguoi_dung_id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.nguoi_dung_id })
+        </td>
+    </tr>
+}
+
+</table>
